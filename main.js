@@ -151,10 +151,10 @@ function drawScore(){
     textSize(20);
     fill("white");
     stroke(250,0,0)
-    text("Jogador: ",100,50)
-    text(playerscore,140,50);
-    text("Computador: ",500,50)
-    text(pcscore,555,50)
+    text("Jogador:",100,50)
+    text(playerscore,190,50);
+    text("Computador:",500,50)
+    text(pcscore,600,50)
 }
 
 
