@@ -147,9 +147,9 @@ function drawScore(){
     textSize(20);
     fill("white");
     stroke(250,0,0)
-    text("Player:",100,50)
+    text("Jogador:",100,50)
     text(playerscore,140,50);
-    text("Computer:",500,50)
+    text("Computador:",500,50)
     text(pcscore,555,50)
 }
 
@@ -186,7 +186,7 @@ if(pcscore ==4){
     stroke("white");
     textSize(25);
     text("Game Over!",width/2,height/2);
-    text("Press Restart button to play again!",width/2,height/2+30)
+    text("Pressione o botão 'Recomeçar' para jogar novamente!",width/2,height/2+30)
     noLoop();
     pcscore = 0;
  }
@@ -201,9 +201,9 @@ function models(){
     textSize(18);
     fill(255);
     noStroke();
-    text("Width:"+width,135,15);
-    text("Speed:"+abs(ball.dx),50,15);
-    text("Height:"+height,235,15)
+    text("Largura:"+width,135,15);
+    text("Velocidade:"+abs(ball.dx),50,15);
+    text("Altura:"+height,235,15)
 }
 
 
